@@ -246,6 +246,10 @@ body > section > div:first-child {
 
 /* Award label */
 
+.main{
+    margin-top: 10px;
+}
+
 .right label {
     color: #ffffff;
 
@@ -253,6 +257,19 @@ body > section > div:first-child {
 
     vertical-align: middle;
 }
+
+.plus-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.plus-btn button{
+    margin-top: -15px;
+    width: 16px;
+    height: 16px;
+}
+    
 
 
 /* Description field */
