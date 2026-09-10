@@ -1,0 +1,290 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* main container */
+
+.container{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+
+}
+
+/* Header */
+
+.head{
+    position: relative;
+
+    width: 100%;
+    height: 540px;
+
+    padding-top: 22px;
+    padding-left: 50px;
+    padding-right: 30px;
+
+    background: #a5262d;
+    color: #ffffff;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 74%,
+        88% 100%,
+        0 100%
+    );
+   
+}
+
+/* logo */
+
+.logoo{
+
+    width: 93px;
+    height: 93px;
+    margin-bottom: 16px;
+    margin-left: 15px;
+}
+
+.logoo img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+    display: block;
+}
+
+/* h1-head */
+
+.logo-h1 h1 {
+    margin: 0;
+    font-size: 80px;
+    line-height: 0.95;
+    font-weight: 900;
+    letter-spacing: -1px;
+    color: #ffffff
+}
+
+.logo-h1 h2 {
+    margin-top: 10px;
+    font-size: 39px;
+    line-height: 1.1;
+    font-weight: 900;
+    color: #050505;
+}
+
+/* head description */
+
+.logo-desc{
+
+    margin-top: 20px;
+    max-width: 900px;
+
+}
+.logo-desc p{
+    margin: 0 0 15px 0;
+    font-size: 15px;
+    line-height: 1.38;
+    font-weight: 400;
+    color: #ffffff;
+    
+}
+
+/* middle section */
+
+.middle {
+    width: 100%;
+
+    padding-top: 22px;
+    padding-bottom: 22px;
+
+    background: #ffffff;
+}
+/* best club block */
+
+.best_club {
+    width: 100%;
+
+    padding-left: 47px;
+    padding-right: 40px;
+
+    margin-bottom: 39px;
+}
+
+.icon_award {
+    display: flex;
+
+    align-items: center;
+
+    height: 38px;
+
+    margin-bottom: 13px;
+}
+
+.icon_award img {
+    width: 35px;
+    height: 35px;
+
+    object-fit: contain;
+
+    display: block;
+
+    margin-right: 7px;
+}
+
+/* Best club heading */
+
+.icon_award h2 {
+    margin: 0;
+
+    font-size: 35px;
+    line-height: 1;
+
+    font-weight: 900;
+
+    letter-spacing: -1px;
+
+    color: #050505;
+}
+
+/* five-club */
+
+.five-icon {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(5, 1fr);
+
+    grid-template-rows:
+        68px 52px;
+
+    column-gap: 8px;
+    
+    align-items: start;
+
+    text-align: center;
+}
+
+.five-icon img {
+    width: 70px;
+    height: 70px;
+
+    object-fit: contain;
+
+    display: block;
+
+    justify-self: center;
+    
+}
+
+.five-icon p{
+    margin: 10px 0 0 0 ;
+    font-size: 13px;
+    line-height: 1.05;
+    font-weight: 700;
+    color: #a5262d;
+}
+
+.five-icon p strong{
+    color: #050505;
+    font-weight: 900;
+}
+
+/* first club */
+.five-icon img:nth-child(1){
+    grid-column: 1;
+    grid-row: 1;
+}
+.five-icon p:nth-child(2){
+    grid-column: 1;
+    grid-row: 2;
+}
+
+/* second club */
+.five-icon img:nth-child(3){
+    grid-column: 2;
+    grid-row: 1;
+}
+.five-icon p:nth-child(4){
+    grid-column: 2;
+    grid-row: 2;
+}
+
+/* third club */
+.five-icon img:nth-child(5){
+    grid-column: 3;
+    grid-row: 1;
+}
+.five-icon p:nth-child(6){
+    grid-column: 3;
+    grid-row: 2;
+}
+
+/* fourth club */
+.five-icon img:nth-child(7){
+    grid-column: 4;
+    grid-row: 1;
+}
+.five-icon p:nth-child(8){
+    grid-column: 4;
+    grid-row: 2;
+}
+
+/* fifth club */
+.five-icon img:nth-child(9){
+    grid-column: 5;
+    grid-row: 1;
+}
+.five-icon p:nth-child(10){
+    grid-column: 5;
+    grid-row: 2;
+}
+
+
+
+/* footer */
+.foot{
+    position: relative;
+
+    width: 100%;
+    height: 200px;
+
+    padding: 48px 30px;
+    background: #a5262d;
+    color: #ffffff;
+    
+
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 74%,
+        88% 100%,
+        0 100%
+    );
+}
+
+.foot h2{
+    
+    font-size: 55px;
+    line-height: 1.05;
+    font-weight: 900;
+    color: #ffffff;
+    padding-left: 50px;
+    margin-left: 40px;
+    
+    
+}
