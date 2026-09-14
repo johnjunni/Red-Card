@@ -108,23 +108,16 @@ body{
 
 .middle {
     width: 100%;
-
-    padding-top: 22px;
-    padding-bottom: 22px;
-
+    /* margin-top: 100px; */
+    margin: 120px 20px 0 30px;
+    height: 1600px;
     background: #ffffff;
 }
 /* best club block */
 
 .best_club {
-    width: 100%;
-
-    padding-left: 87px;
-    padding-right: 40px;
-    
-
-    
-    margin-bottom: 35px;
+    width: 100%;    
+    margin-bottom: 80px;
 }
 
 .icon_award {
@@ -134,32 +127,32 @@ body{
 
     height: 50px;
     
-    margin-left: 10px;
-    margin-bottom: 33px;
+    /* margin-left: 50px; */
+    margin-bottom: 53px;
 }
 
 .icon_award img {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 
     object-fit: contain;
 
     display: block;
 
-    margin-right: 7px;
+    
 }
 
 /* Best club heading */
 
-.icon_award h2 {
-    margin: 0;
+.icon_award h1 {
+    /* margin-left: 10px; */
 
-    font-size: 35px;
+    font-size: 70px;
     line-height: 1;
 
     font-weight: 900;
-
-    letter-spacing: -1px;
+    
+    /* letter-spacing: 2px; */
 
     color: #050505;
 }
@@ -187,9 +180,9 @@ body{
 .five-icon img {
     width: 105px;
     height: 105px;
-
+    
     object-fit: contain;
-    margin-right: 100px;
+    margin-bottom: 100px;
     display: block;
 
     justify-self: center;
@@ -198,16 +191,17 @@ body{
 
 .five-icon p{
     margin: 50px 0 0 0 ;
-    font-size: 13px;
-    line-height: 1.05;
+    font-size: 15px;
+    line-height: 1.3;
     font-weight: 900;
     color: #a5262d;
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
 
 .five-icon p strong{
     color: #050505;
     font-weight: 900;
+    line-height: 1.90;
 }
 
 /* first club */
