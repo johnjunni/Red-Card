@@ -118,6 +118,8 @@ body{
 .best_club {
     width: 100%;    
     margin-bottom: 80px;
+    
+    
 }
 
 .icon_award {
@@ -126,17 +128,18 @@ body{
     align-items: center;
 
     height: 50px;
+    gap: 15px;
     
-    /* margin-left: 50px; */
+    margin-left: 40px;
     margin-bottom: 53px;
 }
 
 .icon_award img {
-    width: 50px;
-    height: 50px;
+    width: 57px;
+    height: 57px;
 
     object-fit: contain;
-
+    margin-left: 25px;
     display: block;
 
     
@@ -147,7 +150,7 @@ body{
 .icon_award h1 {
     /* margin-left: 10px; */
 
-    font-size: 70px;
+    font-size: 80px;
     line-height: 1;
 
     font-weight: 900;
@@ -168,18 +171,18 @@ body{
         repeat(5, 1fr);
 
     grid-template-rows:
-        68px 52px;
-
+        62px 70px;
     
     
-    align-items: start;
+    
+    /* align-items: start; */
 
     text-align: center;
 }
 
 .five-icon img {
-    width: 105px;
-    height: 105px;
+    width: 85px;
+    height: 85px;
     
     object-fit: contain;
     margin-bottom: 100px;
@@ -190,8 +193,8 @@ body{
 }
 
 .five-icon p{
-    margin: 50px 0 0 0 ;
-    font-size: 15px;
+    margin: 25px 0 0 0 ;
+    font-size: 13px;
     line-height: 1.3;
     font-weight: 900;
     color: #a5262d;
